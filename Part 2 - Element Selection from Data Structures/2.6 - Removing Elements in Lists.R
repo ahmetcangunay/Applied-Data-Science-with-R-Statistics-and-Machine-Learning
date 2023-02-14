@@ -6,6 +6,11 @@ a
 a[[1]] <- NULL
 a
 
+#Another Remove Method
+a<-a[-2]
+a
+
+
 # If I want to subtract the value 10 inside the vector
 a[[3]][-3]
 a[[3]] <- a[[3]][-3]
@@ -24,3 +29,5 @@ b
 c <- list("A" = c(1, 2, 3), "B" = "b")
 c$A <- NULL
 c
+
+
